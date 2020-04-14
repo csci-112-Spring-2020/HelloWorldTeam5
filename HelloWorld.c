@@ -2,7 +2,29 @@
 #include <stdio.h>
 
 
-int main()
+void hello_world(void);
+void matt_r_main(void);
+void alex_h_main(void);
+
+
+void main()
+{
+  helloworld();
+}
+
+void hello_world(void)
+{
+  printf("Hello World, from the tutor.");
+}
+
+int matt_r_main(void) {
+  
+  printf("Hello World from Matt R.");
+  
+}
+
+int alex_h_main(void)
+
 {
 
 	char name[100];
@@ -14,3 +36,6 @@ int main()
 
 
 }
+=======
+
+
